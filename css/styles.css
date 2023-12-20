@@ -1,0 +1,152 @@
+/* standart */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.header {
+    width: 1440px;
+        height: 72px;
+        flex-shrink: 0;
+}
+
+
+.header-nav {
+    display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+}
+
+.logo {
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header-nav-list {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.header-nav-item {
+
+}
+
+.studio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.studio:hover {
+    color: #404BBF;
+}
+
+.studio:active {
+    color: #404BBF;
+}
+
+.portfolio {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.portfolio:hover {
+    color:#404BBF;
+}
+
+.contacts {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.contacts:hover {
+    color:#404BBF;
+}
+
+.address {
+
+}
+
+.address-list {
+
+}
+
+.address-list-item {
+
+}
+
+.address-mail {
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.address-mail:hover {
+    color: #404BBF;
+}
+
+.address-tel {
+    color: var(--SLATE, #434455);
+    
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+
+.address-tel:hover {
+    color:#404BBF;
+}
